@@ -7,11 +7,11 @@ A new Payments API has been delivered. This API allows users to create new payme
 
 ## Acceptance Criteria:
 
-You are required to develop a user journey in Cucumber, using a language of your choice (Ruby is preferable to us), which will:
+You are required to develop the user journies in Cucumber, using a language of your choice (Ruby is preferable to us), which will:
 - Perform User Login and retrieve a login token
-- Create a new payment record
-- Update the reference in the new payment record with a randomly generated string
-- Search for a payment record and assert the reference matches the generated string
+- Create a quote for Selling GBP and buying USD using the sell side
+- Verify the buy amount is correct to the rate 
+- Create another quote but perform a negative assertion 
 - End the API Session
 
 We will be looking for how you implement the API calls within your code, using OOP. We will also be considering your usuage of best practices, config files and storing information for further steps. 
