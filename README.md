@@ -24,17 +24,20 @@ e.g. Sending the failed response for further processing in a verification method
 
 # Instructions
 1. Install Bundler and do a bundle install to install the required Gems for this framework:
+
   ```
   bundle install
   ```
 2. Run cucumber with the desired execution profile along with the login credentials:
-	```
-	cucumber -p {execution_profile} ID={login_id} KEY={api_key}
-	```
+
+  ```
+  cucumber -p {execution_profile} ID={login_id} KEY={api_key}
+  ```
 3. Or you can choose to go with the default profile:
-	```
-	cucumber ID={login_id} KEY={api_key}
-	```
+
+  ```
+  cucumber ID={login_id} KEY={api_key}
+  ```
 	
 # Framework Structure
 ## Page Object Model structure
@@ -46,18 +49,21 @@ binding.pry
 ```
 
 ### Generic class
-Contains methods for sending a GET or POST request. These requests are then wrapped around a debug method which decides whether or not to throw an exception upon receiving a failed API response.
+Contains a method for sending a GET and POST requests and can be further extended to support other HTTP requests. These response from these requests are then wrapped around a debug method which decides whether or not to throw an exception if the response has failed.
 
-**POST**
+**SENDING API REQUESTS**
 
 ```ruby
-def post(contents)
-  response = HTTParty.post(
-  base_url + contents[:path],
-      headers: contents[:headers] || {},
-      body: contents[:body] || {}
-    )
-  debug { response }
+def method_missing(method_name, contents)
+  raise("Request invalid: #{method_name}") unless requests_list.include? method_name
+
+  response = HTTParty.send(method_name, 
+    base_url + contents[:path],
+    headers: contents[:headers] || {},
+    body: contents[:body] || {}
+  )
+
+  debug(:api_call) { response }
 end
 ```
 
