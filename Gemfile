@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'cucumber'
+gem 'cucumber', '1.3.20'
 gem 'httparty'
 gem 'pry'
