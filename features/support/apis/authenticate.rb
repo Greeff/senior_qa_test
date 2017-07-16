@@ -3,7 +3,7 @@ class Authenticate < Generic
 
   def login
     # use a single auth token for the entire framework
-    # we can also configure this so that a new auth token
+    # also configurable so that a new auth token
     # is generated for each feature file
     return self unless @auth_token.nil?
 
@@ -28,8 +28,8 @@ class Authenticate < Generic
   end
 
   def verify_auth_token
-    debug_verify {
-      raise 'Failed to retrieve auth token.' if @auth_token.nil?
+    debug {
+      raise 'Failed to retrieve Authentication Token.' if @auth_token.nil?
     }
   end
 end
