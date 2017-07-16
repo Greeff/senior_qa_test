@@ -1,3 +1,5 @@
+default: -t ~@wip
+
 debug: DEBUG=true
 
 smoke: -t @smoke
