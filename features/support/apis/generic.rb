@@ -1,11 +1,10 @@
-# post and get requests are all wraped in a debug method
-
 class Generic
 
   def base_url
     'https://devapi.currencycloud.com/v2/'
   end
 
+  # post and get requests are all wraped in a debug method
   def post(contents)
     response = HTTParty.post(
       base_url + contents[:path],
@@ -22,6 +21,15 @@ class Generic
       body: contents[:body] || {}
     )
     debug { response }
+  end
+
+  # to process verification methods within page classes
+  def debug_verify(&block)
+    begin
+      yield
+    rescue => e
+      ENV['DEBUG'].nil? ? raise(e.message) : binding.pry
+    end
   end
 
   private
