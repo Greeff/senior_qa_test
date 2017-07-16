@@ -28,9 +28,9 @@ Before starting the test create a new branch on this repository with an initial 
 
 ## Instructions
 
-create a new branch on this repository with an initial commit
+create a new folder on your local machine
 
-create a PR for review
+create a PR
 
 in your local directory execute:
 
@@ -38,7 +38,7 @@ in your local directory execute:
 
 Then execute:
 
-	$ rspec
+    $ rspec
 
 ## Reasoning
 I initiall started to creat a cucumber framework tusing Given, When and Then Scenario Outlines and corresponding step_definitions including relevant modules, classes and methods. When it occured to me that I am testing an API and I wouldnt normally use this type of test framework for an API test, whic sits perfectly for a GUI test instead.
