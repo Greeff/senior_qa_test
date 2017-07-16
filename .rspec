@@ -1,0 +1,4 @@
+--colour --tty
+--require spec_helper
+--format documentation
+--format html -o 'results.html'

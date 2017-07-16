@@ -1,0 +1,7 @@
+TEST1:
+  login_id: olujoe7@gmail.com
+  api_key: 2addba153748227ee7aaf681fc71e149ff217cb66300dca80361a3b43e0c2c8b
+
+Test2_ERROR:
+  login_id: oluje7@gmail.com
+  api_key: 2addba153748227ee7aaf681fc71e149ff217cb66300dca80361a3b43e0c2c8c
