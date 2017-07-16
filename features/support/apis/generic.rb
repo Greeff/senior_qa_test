@@ -15,7 +15,7 @@ class Generic
     }
   end
 
-  def get
+  def get(contents)
     result = HTTParty.get(
       base_url + contents[:path],
       headers: contents[:headers] || {},
