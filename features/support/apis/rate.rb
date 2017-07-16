@@ -31,6 +31,8 @@ class Rate < Generic
   end
 
   def verify_quote_unsuccessful
-    raise('Quote was unexpectedly successful.') if @quote_result.success?
+    debug_verify {
+      raise('Quote was unexpectedly successful.') if @quote_result.success?
+    }
   end
 end
