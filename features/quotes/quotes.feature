@@ -1,6 +1,9 @@
 @quotes
 Feature: Quotes
 
+  Background:
+    Given I have successfully retrieved an authentication token
+    
   @create_quote
   Scenario: Creating a Quote
     Given I create a quote using the following information:
