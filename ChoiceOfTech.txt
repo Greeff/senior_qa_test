@@ -1,0 +1,10 @@
+Python has and is my main scripting language, it is something that I have been using for a few years which Im comfortable with and not have a reason to take up a different language since. Without selenium web driver, this test script wouldn’t be possible since it is heavily based on browser testing, elements is required in order to run the test.  
+
+With using TDD structure, I felt that it free’d up a lot of time for me and focus on writing up the test functions and allowed for a better working environment for me, it is easy to read and locate items. 
+
+There were other options in writing my script and initially I wanted to use Cucumber and run my test in BDD though I found that I had to create several other scripts and having to import each file in order to run the tests which was much more time consuming. 
+Therefore, I kept the Gherkin script and used that as a reference in writing my test script. Using a ‘class’ with separate ‘definitions’ kept the tests separated, again a method that I like to use which allows me to read and locate things easily. 
+
+
+
+ 
