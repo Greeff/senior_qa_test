@@ -1,0 +1,51 @@
+PATH
+  remote: ../senior_qa_test_api
+  specs:
+    senior_qa_test_api (0.1.0)
+      crack (= 0.4.2)
+      hashie (= 3.1)
+      httparty (= 0.14.0)
+      pry (= 0.10.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.1)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
+    diff-lcs (1.3)
+    hashie (3.1.0)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
+    method_source (0.8.2)
+    multi_xml (0.6.0)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rspec (3.6.0)
+      rspec-core (~> 3.6.0)
+      rspec-expectations (~> 3.6.0)
+      rspec-mocks (~> 3.6.0)
+    rspec-core (3.6.0)
+      rspec-support (~> 3.6.0)
+    rspec-expectations (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-mocks (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-support (3.6.0)
+    safe_yaml (1.0.4)
+    slop (3.6.0)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  pry
+  rspec
+  senior_qa_test_api!
+
+BUNDLED WITH
+   1.14.6

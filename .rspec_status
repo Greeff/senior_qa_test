@@ -1,0 +1,10 @@
+example_id                                          | status | run_time        |
+--------------------------------------------------- | ------ | --------------- |
+./spec/integration/currency_cloud_test_spec.rb[1:1] | passed | 6.22 seconds    |
+./spec/integration/currency_cloud_test_spec.rb[1:2] | failed | 0.44501 seconds |
+./spec/integration/currency_cloud_test_spec.rb[1:3] | failed | 0.19726 seconds |
+./spec/integration/currency_cloud_test_spec.rb[1:4] | failed | 0.56412 seconds |
+./spec/integration/currency_cloud_test_spec.rb[1:5] | passed | 0.1742 seconds  |
+./spec/integration/currency_cloud_test_spec.rb[1:6] | passed | 0.33347 seconds |
+./spec/integration/currency_cloud_test_spec.rb[1:7] | passed | 0.20356 seconds |
+./spec/integration/currency_cloud_test_spec.rb[1:8] | passed | 0.18206 seconds |
