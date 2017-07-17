@@ -28,7 +28,6 @@ Before starting the test create a new branch on this repository with an initial 
 
 ## Instructions
 
-<<<<<<< HEAD
 create a new branch on this repository with an initial commit
 
 create a PR for review
