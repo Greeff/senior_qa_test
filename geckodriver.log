@@ -1,0 +1,33 @@
+1500285688818	geckodriver	INFO	geckodriver 0.18.0
+1500285688886	geckodriver	INFO	Listening on 127.0.0.1:55375
+1500285690013	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1500285693496	Marionette	INFO	Listening on port 55384
+1500285693612	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500285693909	Marionette	DEBUG	loaded listener.js
+1500285693943	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-17 11:01:34.006 plugin-container[22341:4461111] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-17 11:01:34.011 plugin-container[22341:4461111] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1500285694319	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1500285694320	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1500285694718	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://direct-demo.currencycloud.com/login"
+1500285696647	Marionette	DEBUG	Received DOM event "pageshow" for "https://direct-demo.currencycloud.com/login"
+1500285696701	geckodriver	INFO	geckodriver 0.18.0
+1500285696760	geckodriver	INFO	Listening on 127.0.0.1:55480
+1500285697831	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1500285700698	Marionette	INFO	Listening on port 55489
+1500285700784	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500285701096	Marionette	DEBUG	loaded listener.js
+1500285701172	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-17 11:01:41.218 plugin-container[22344:4461350] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9633, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-17 11:01:41.229 plugin-container[22344:4461350] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1500285701381	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1500285701381	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1500285701884	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://direct-demo.currencycloud.com/login"
+1500285703754	Marionette	DEBUG	Received DOM event "pageshow" for "https://direct-demo.currencycloud.com/login"
+1500285704205	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1500285704344	Marionette	DEBUG	Received DOM event "beforeunload" for "https://direct-demo.currencycloud.com/login"
+1500285709555	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
