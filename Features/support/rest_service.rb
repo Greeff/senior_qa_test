@@ -1,5 +1,5 @@
 require 'net/http'
-require "uri"
+require 'uri'
 
 module Rest_service
   HTTP_TIMEOUT_FOR_RESPONSE = 180
@@ -22,17 +22,14 @@ module Rest_service
   def Rest_service.get_request(method, url)
     request = nil   
     url =  $app_root + url
-
-    #    uri = URI.parse("https://currencycloud.com")
+#    uri = URI.parse("https://currencycloud.com")
 #    pem = File.read("/path/to/my.pem")
 #    http = Net::HTTP.new(uri.host, uri.port)
 #    http.use_ssl = true
 #    http.cert = OpenSSL::X509::Certificate.new(pem)
 #    http.key = OpenSSL::PKey::RSA.new(pem)
 #    http.verify_mode = OpenSSL::SSL::VERIFY_PEER
-
 # request = Net::HTTP::Get.new(uri.request_uri)
-   
     case method
       when "POST"
         request = Net::HTTP::Post.new(url)
@@ -43,6 +40,10 @@ module Rest_service
       when "GET"
         request = Net::HTTP::Get.new(url)
     end
+
+    request.basic_auth($app_user, $app_pass)  
+    return request
+  end
 
 
 
