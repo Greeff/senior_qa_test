@@ -34,7 +34,8 @@ AfterConfiguration do |config|
   # Load application configuration parameters
   $app_user = configuration['app']['admin_user']
   $app_pass = configuration['app']['admin_pass']
-  $app_host = configuration['app']['host']
+  $app_token = configuration['app']['host']
+  $app_host = configuration['app']['login_token']
   $app_port = configuration['app']['port']
   $app_root = configuration['app']['rootPath']
 end
