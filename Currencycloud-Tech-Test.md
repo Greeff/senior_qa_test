@@ -22,4 +22,4 @@ Before starting the test create a new branch on this repository with an initial 
 
 ## Helpful Links:
 
-**CurrencyCloud API Documentation:** https://developer.currencycloud.com/documentation/api-docs/overview/
+**CurrencyCloud API Documentation:** [click Here](https://www.glassdoor.co.uk/Reviews/Employee-Review-Currencycloud-RVW20693095.htm)
